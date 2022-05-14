@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS genre;
+
+CREATE TABLE productviews (
+    id   BIGINT NOT NULL AUTO_INCREMENT UNIQUE PRIMARY KEY,
+    product_id  VARCHAR(6) NOT NULL
+);

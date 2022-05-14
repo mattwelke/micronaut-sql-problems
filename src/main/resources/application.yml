@@ -1,0 +1,23 @@
+micronaut:
+  application:
+    name: recTest
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/rectestdb
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: rectest
+    password: 'example'
+    schema-generate: CREATE_DROP
+    dialect: MYSQL
+netty:
+  default:
+    allocator:
+      max-order: 3
+flyway:
+  datasources:
+    default:
+      enabled: true
+jpa:
+  default:
+    entity-scan:
+      packages: 'rec.test'

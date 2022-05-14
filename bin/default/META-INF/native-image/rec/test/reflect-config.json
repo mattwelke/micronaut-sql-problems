@@ -1,0 +1,15 @@
+[ {
+  "name" : "rec.test.Productview[]"
+}, {
+  "name" : "rec.test.Productview",
+  "allDeclaredFields" : true,
+  "allPublicMethods" : true,
+  "methods" : [ {
+    "name" : "<init>",
+    "parameterTypes" : [ "java.lang.String" ]
+  }, {
+    "name" : "<init>",
+    "parameterTypes" : [ ]
+  } ],
+  "allDeclaredConstructors" : true
+} ]
